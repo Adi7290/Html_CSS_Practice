@@ -1,0 +1,21 @@
+virtualenv Name is used to create a virtual enviorment
+Make sure that you are in the projects directory
+env\scripts\activate.bat {used to activate virtual env}
+using pip install flask and sqlalchemy
+
+import Flask from flask
+
+app=Flask(__name__)
+
+@app.route('/')
+def index():
+	return"Hello World!"
+if __name__="__main__"
+	app.run(debug=True)
+
+create static 
+and template folder
+
+import render template as well
+
+

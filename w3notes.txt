@@ -1,0 +1,85 @@
+core python
+web frameworks 
+object relation mappers
+rest api's
+python applications
+front end skills 
+database knowledge
+script writing
+
+
+python web developer
+core python
+flask django
+html and css
+front end skills 
+server side development
+mvc and mvt architechture
+database knowledge
+
+
+
+<h1>---<h6> <!-- heading tags>
+<br>	breakline
+<a href=""> address redirecter
+<p> </p> paragraph tags
+<pre></pre> preservance tag
+<p style="font-family":fontname;> used to change the font of the paragraph
+<p style ="text-align":position;> is used to align the text
+<p style ="font-size":50px;> used for assigning a size to text
+<em> is used for emphasizing the text
+<mark> is used to highlight the text or word
+<sub> is used for subscript formatting
+<del> is used for strikeout the text
+<q> is used for quotation marks
+<blockquote> is used for quoted section
+<bdo dir="rtl"> make the text go right to left
+<abbr> is used for abbreviations
+
+#css
+
+body{
+	background-color:yellow;		css to change the background color
+
+}
+
+body{font-family:courier;} css to change the font family
+
+body{color:red;} is used to change the text color for document
+
+p{border:1px solid yellow} making a bordr with 1px size and solid yellow color
+
+style = "text-decoration:none"; used to removed decoration or underline from text
+target="_blank" is used to open image in new tab
+title="tooltip" is used to make a tooltip
+width:250px;height:400px; css to change the image size
+float:right; used to make image to float to right side
+<tr> is used for table row
+<th> is used for table header
+<caption> is used for giving caption to table
+style="width:300px" is used to make the tabble 300px
+<td> is used for getting a table cell
+colspan="2" is ised to get the span of columns
+rowspan="2" is used to get the span of rows
+<ul> is used for undorderd list
+<li> is used to enter list items
+<ol> is used to get ordered list
+"list-style-type:square;" is used for getting squares insted of bullets
+<dd>	is used to enter discription for the list
+.special{
+	color:Blue;
+} is used to create a class selector named special add a colorproperty with value blue inside
+class="mystyle" is used to call single class values
+class="class1 class2" is used to call double class
+#myheader {} used to declare a id selector
+id="myheader" used to call the properties of header
+<iframe src="link"> used to create a iframe
+border:none; is used for displaying i framme with no borders
+#CSS
+
+script
+document.getele
+
+
+
+	

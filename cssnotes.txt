@@ -1,0 +1,355 @@
+CSS 
+
+what is css
+history of css
+css editors 
+css basic structure
+css comments 
+different ways to write css
+css selectors
+color property
+background property
+border property
+box model
+
+
+What is css
+
+css stands for cascading style sheets
+
+if html is structure css is the feel of the site
+
+used to make web page presentable
+designed to maake style sheets for web
+
+designed to make style sheets for web
+
+cascading falling of styles
+style adding designs styling our html tags
+sheets writing our style in different documents
+
+history
+
+1994 proposed by hakon wium lie on 10th october
+
+1996 css was published on 17th november with influencer bert bos later he become co author of css
+
+1996 css became official with css published
+
+1997 css level 2 on 4th november
+
+1998 published on 12th may
+
+
+
+selector {
+	property1:value;
+	property2:value;
+	property3:value;
+}
+
+selector selects the elements you want to target
+
+there are few basic selectors like tags id's and classes
+all form this key - value pair
+keys properties like color font size etc
+value values associated with these properties
+
+always remain same wherther we apply internal or external styling
+
+#comments in css
+
+comments do not render 
+helps to understand the code better and readable
+helps to debugging our code
+two ways to comments 
+
+single line
+multiple line
+
+/*text*? is used to enter comments in css
+/**/ is usedd to enter multiple line comment in css
+
+
+
+different ways to write css 
+inline css
+internal css
+external css
+
+priority order in css is inline internal external
+
+
+inline css 
+
+before css this was the only way to apply styles
+
+not an efficient ay to write as it has a lot of redundancy
+
+self contained
+
+uniquely applied on each element
+
+idea of separation of converns was lost
+
+example
+
+<h3 style = " color :red"> have a great day </h3>
+
+<p style = "color:green"> i did this i did that </p>
+
+#internal css
+with the help of style tag we can applye styles withing the html file
+
+redundancy is removed
+
+but idea of seperation of concerns still lost
+uniquely applied on single document
+
+example
+
+<style> 
+	h1{
+	color:red;
+	}
+</style>
+<h3> have a great day</h3>
+
+
+#External css
+
+with the help of <link> tag in the head we can apply styles
+
+reference is added
+
+file saved with .css extension
+
+redundancy is removed
+
+idea of separation of concerns is maintained
+
+uniquely applied on each document
+
+example
+<link rel="stylesheet" type="text/css" href="">
+
+h1 {
+	color:red //.css file
+}
+
+
+
+
+#css selector
+
+selectors are used to target elements and apply css
+
+three simple selector
+
+element selector 
+id selector 
+class selector
+
+priority of selectors
+id>class> element
+
+#element selector
+
+used to select HTML elements by its name
+
+how we do it
+
+h1{
+
+	color:red;
+}
+
+we selected the heading tag and then changed the color property i.e text color to red .now whatever is written in this tag content will have the text color as red
+
+
+#ID selector
+
+id attribute is used to select html element
+
+used  to target specific or unique element
+
+how we do it
+
+#unique
+	{
+	COLOR:RED;
+	}
+<p id ="unique"> Hi </p>
+
+we selected id and then changed the color property i.e text color to red now whatever written in this tag content will have the text color as red
+
+
+
+Class selector
+
+class attribute is used to select html element
+
+used to target specific class of element
+
+how we do  it
+
+.group 
+	{
+	color:red;
+	}
+<p class = 'group"> hi </p>
+
+we selected class and then changed the color property i.e text color to red now whatever is written in this tag will have the color as red
+
+#universal selector
+
+wild card character
+used to target specific all the elements 
+how we do it
+
+*
+	{
+	color:red;
+	}
+<h1> hi </h1>
+<p> bye </p>
+we selected all the elements and then changed the color property i.e text color to red now whatever is written in all the tags will have he color as red
+
+
+* is used to make the preference universal for the project
+
+Group selector
+
+group selector minimizes code
+
+used to target specific group of elements 
+
+how we do it
+
+h1,p {
+	color :red;
+
+	}
+<h1> Hi </hi>
+<p> Bye </p>
+
+we selected these elements and then changed the color property to red now whatever written in these tags will be having the red color
+
+Decendant combinator selector
+
+combine two or more selector
+how we do it
+	<div id ="out">
+		<div class ="in"> Hi </div>
+
+</div>
+
+we selcted class inside id then changed the color property to red now whatever written content will have the text color as red
+
+	#out.in{
+		color:red;
+	}
+Pseudo class selector
+
+used to target staten of element
+how we do it
+
+p:hover	
+{
+	color:red;
+}
+<p> Hi </p>
+we seleted the element and then changed the color property to red now whatever is written in this tag will have text color as red
+
+CSS color 
+
+css color
+
+there are different colouring schemes in css
+
+2 widely used techniques are as follows
+
+
+RGB
+
+this start with rgb and take 3 parameter
+3 parameter basically corresponds to red green and blue
+value of each parameter may vary from  to 255
+
+e.g rgb 255,0,0 means red
+
+Hex
+hexcode starts with # and comprises of 6 numbers which is futher divided into 3 sets
+sets basically corresponds to red green and blue
+
+a single set value can vary from 00 to ff
+
+eg #ff0000 ; means red 
+
+
+
+#CSS background
+
+there are different ways by which css can have effect on html elements
+
+few of them are as follows
+
+color used to set background color
+repeat if the image has to repeat or not
+image used to set image in background
+position position of image
+attachment scrolling control
+
+html
+	{
+	background :#ff9900
+}
+p{
+	background:url()
+
+	background position:left
+	background repeat : no repeat
+	background attachment : fixed
+}
+
+
+
+
+CSS border
+
+helps in setting up border for html
+there are 4 properties in border setting
+
+width	sets width
+style   sets style
+color	sets color
+radius	sets radius
+
+you can set the border for specifically top right bottom and left
+
+we can also club top and bottom together and same goes for up left right ext
+
+border can also be set in a single line
+	border : 2px solid blue
+
+
+
+#box model
+
+every element in css an be represented using box model
+it helps developer to develop and manipulate the elements 
+it consist of 4 edges
+contecnt edge	includes actual content
+padding edge	it lies in between the content and border edge
+border edge 	padding is follow by the border  edge
+margin edge	it is outside border and controls the margin of the element
+
+example
+
+#styled{
+	border:2px solid blue
+	margin : 5px
+	padding : 20px
+	width:20px
+	height  20px
+	}
