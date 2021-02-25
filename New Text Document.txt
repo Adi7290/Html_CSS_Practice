@@ -1,0 +1,21 @@
+Front End 
+
+HTML5
+CSS3
+Javascript
+jQuery
+Bootstrap 3 and 4
+Document Object Model
+
+Backend
+
+Python
+Django basics
+Django templates
+Django forms
+Django Admin 
+ORM
+Class based views
+Rest Apis
+User Authentication
+
